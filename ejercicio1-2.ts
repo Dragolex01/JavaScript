@@ -74,18 +74,35 @@ console.log(max(P));
 
 //Cree una función que reciba un array de palabras y devuelva un string con la contenación de las iniciales
 //Cree una funcion "pairs" que reciba un array de numeros y devuelva un array de numeros conteniendo los numeros pares
+var xs2 = [1, 2, 3, 4, 5];
+function pairs(xs2: number[]): number[] {
+  var ys2 = [];
+  var p = 0;
+  for (var i = 0; i < xs2.length; i++) {
+    if (xs2[i] % 2 == 0) {
+      ys2[p] = xs2[i];
+      p++;
+    }
+  }
 
-function pairs(xs: number): number {
-  return;
+  return ys2;
 }
 
-pairs([]);
+console.log(pairs(xs2));
 //Cree una function "adults" que reciba un array de numbers y devuelva un array de numbers con las edades mayores de edad
 
+var xs3 = [11, 18, 24, 12];
 function adults(ages: number[]): number[] {
-  return;
+  var ys3 = [];
+  var p = 0;
+  for (var i = 0; i < xs3.length; i++) {
+    if (xs3[i] >= 18) {
+      ys3[p] = xs3[i];
+      p++;
+    }
+  }
+
+  return ys3;
 }
 
-adults([]);
-
-//
+console.log(adults(xs3));
