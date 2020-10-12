@@ -18,7 +18,6 @@ function sumaArray(numeros) {
 }
 console.log(sumaArray([2, 4, 8]));
 
-//No repetir código
 //Introducir un array initial y que devuelva el primer carácter de cada elemento
 function initial(nombres) {
   var caracteres = [];
